@@ -19,8 +19,11 @@
     background-color: #ffb824;
 }
 
+.navbar-nav {
+    background-color: #000000;
+}
+
 .masthead-content {
-    opacity: 50%;
     justify-content: space-around;
 }
 
