@@ -5,9 +5,9 @@
     "scripts": {
 
         "clean": "node scripts/clean.js",
-        "start": "npm run scripts/start.js",
+        "start": "npm run server.js",
         "start:debug": "npm run build && node scripts/start-debug.js",
-        "devStart": "nodemon server.js"
+        "devStart": "npm run nodemon server.js"
     },
     "description": "Website for selling your home, buying a home, or looking to rent.",
     "keywords": [
