@@ -36,15 +36,15 @@ const Home = () => {
                 <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Learn more</a>
             </div>
         </div>
-        <div class="bg-circle-1 bg-circle"></div>
-        <div class="bg-circle-2 bg-circle"></div>
-        <div class="bg-circle-3 bg-circle"></div>
-        <div class="bg-circle-4 bg-circle"></div>
+        <div class="bg-circle-1 bg-circle zindex-1"></div>
+        <div class="bg-circle-2 bg-circle zindex-1"></div>
+        <div class="bg-circle-3 bg-circle zindex-1"></div>
+        <div class="bg-circle-4 bg-circle zindex-1"></div>
     </header>
       </FadeInSection>
 
       <FadeInSection>
-      <section id="scroll" class="bg-white">
+      <section id="scroll" class="">
         <div class="container px-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6 order-lg-2">
@@ -62,17 +62,18 @@ const Home = () => {
       </FadeInSection>
 
    
-      <section id="sec2" class="bg-white">
+      <section id="sec2" class="">
         <div class="container px-5">
             <div class="row gx-5 align-items-center">
-                <div class="col-lg-6">
-                    <div class="p-5"><img class="img-fluid rounded-circle" src={home02} alt="Happy couple" /></div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="p-5">
+                <div class="col-lg-6 order-lg-2">
+                <div class="p-5">
                         <h2 class="display-4">And for those looking to settle down.</h2>
                         <p>With our inuitive layout its never been easier to find your forever home.</p>
                     </div>
+                </div>
+                <div class="col-lg-6">
+                <div class="p-5"><img class="img-fluid rounded-circle" src={home02} alt="Happy couple" /></div>
+                    
                 </div>
             </div>
         </div>
@@ -80,7 +81,7 @@ const Home = () => {
  
 
 
-      <section id="sec3" class="bg-white">
+      <section id="sec3" class="">
         <div class="container px-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6 order-lg-2">

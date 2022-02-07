@@ -12,11 +12,12 @@ const Header = () => {
     window.location.assign('/');
   };
   return (
-    <header className="bg-black text-light py-0 flex-row align-center navmain">
+    <header className="bg-black text-light py-0 flex-row align-center navbar-nav">
       <div className="container flex-row justify-space-between-sm align-center">
         <nav className="col-md-12 nav navbar-expand-md p-3 nav-wrapper">
-            <Link className="navItem" to="/">
-            <img className="nav-logo" src={logo} alt="Dangerous Logo"></img>
+            <Link className="navItem flex-row" to="/">
+            <img className="nav-logo" src={logo} alt="Casa Logo"></img>
+            <h1 classname="m-auto">CASA</h1>
             </Link>
             <div class="collapse navbar-collapse justify-content-end" id="mynav">
               {Auth.loggedIn() ? (

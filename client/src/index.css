@@ -953,8 +953,7 @@ a:hover {
 }
 
 .navmain {
-  z-index: 10;
-  opacity: 60%;
+  background-color: #000000;
 }
 
 /*login page css */
@@ -975,10 +974,25 @@ a:hover {
   background-color: #ffffff;
 }
 
+
 /*Header circle graphics css */
 
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background: linear-gradient(
+0deg
+, #ff6a00 0%, #ee0979 100%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 header.masthead .bg-circle {
-  z-index: -1;
+
   position: absolute;
   border-radius: 100%;
   background: linear-gradient(0deg, #ec0f97 0%, #ff8b24 100%);
@@ -989,7 +1003,7 @@ header.masthead .bg-circle-1 {
   width: 90rem;
   bottom: -55rem;
   left: -55rem;
-  z-index: -1;
+ 
 }
 
 header.masthead .bg-circle-2 {
@@ -997,7 +1011,7 @@ header.masthead .bg-circle-2 {
   width: 50rem;
   top: -25rem;
   right: -25rem;
-  z-index: -1;
+
 }
 
 header.masthead .bg-circle-3 {
@@ -1005,7 +1019,7 @@ header.masthead .bg-circle-3 {
   width: 20rem;
   bottom: -10rem;
   right: 5%;
-  z-index: -1;
+
 }
 
 header.masthead .bg-circle-4 {
@@ -1013,7 +1027,7 @@ header.masthead .bg-circle-4 {
   width: 30rem;
   top: -5rem;
   right: 35%;
-  z-index: -1;
+
 }
 
 /* DISPLAY */

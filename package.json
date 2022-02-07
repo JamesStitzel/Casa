@@ -1,5 +1,5 @@
 {
-    "name": "dangerous-to-go-alone",
+    "name": "casa",
     "version": "1.0.0",
     "description": "Website dedicated to bringing gamers together to meet new people and enjoy their favorite games together",
     "main": "server/server.js",
@@ -12,14 +12,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/AWSMProdigy/dangerous-to-go-alone.git"
+        "url": "git+https://github.com/JamesStitzel/Casa"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/AWSMProdigy/dangerous-to-go-alone/issues"
+        "url": "https://github.com/JamesStitzel/Casa"
     },
-    "homepage": "https://github.com/AWSMProdigy/dangerous-to-go-alone#readme",
+    "homepage": "https://github.com/JamesStitzel/Casa",
     "dependencies": {
         "bootstrap": "^5.1.3",
         "concurrently": "^6.4.0"

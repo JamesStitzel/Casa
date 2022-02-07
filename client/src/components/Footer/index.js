@@ -7,18 +7,18 @@ import Auth from '../../utils/auth';
 
 const Footer = () => {
   return (
-    <footer className="pt-5 p-5 bg-black">
+    <footer className="pt-5 px-5 bg-black">
       <div className="container text-left">
         <div className="row gy-4 flex-shrink-0">
           <div className="col-lg-4 col-md-6">
-            <img id="footer-logo" className="mb-3" src={logo} alt="Dangerous Logo"></img>
+            <img id="footer-logo" className="mb-3" src={logo} alt="Casa Logo"></img>
             <p className="small text-muted d-block">&copy; 2022 Casa</p>
             <p className="small text-muted">
               Made by James Stitzel
             </p>
           </div>
           <div className="col-lg-3 col-md-6 text-left">
-            <h5 className="text-white mb-3">Quick Links</h5>
+            <h5 className="text-white mb-3">Links</h5>
             <div>
               {Auth.loggedIn() ? (
                 <>

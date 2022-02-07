@@ -15,9 +15,10 @@ The website designed to help you find the home of your dreams.
 
 ## Installation
 
-1. Clone repository. 
-2. npm install
-3. node server.js
+1. Clone the repository
+2. Open "casa" in terminal
+3. "npm i"
+4. "npm run develop"
 
 Running seeders/seed.js is only if you want to have a prepopulated database.
 
