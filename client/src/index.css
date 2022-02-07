@@ -989,6 +989,7 @@ header.masthead {
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
+  z-index: -10;
 }
 
 header.masthead .bg-circle {
@@ -996,6 +997,7 @@ header.masthead .bg-circle {
   position: absolute;
   border-radius: 100%;
   background: linear-gradient(0deg, #ec0f97 0%, #ff8b24 100%);
+  z-index: -5;
 }
 
 header.masthead .bg-circle-1 {
@@ -1003,7 +1005,7 @@ header.masthead .bg-circle-1 {
   width: 90rem;
   bottom: -55rem;
   left: -55rem;
- 
+  z-index: -5;
 }
 
 header.masthead .bg-circle-2 {
@@ -1011,7 +1013,7 @@ header.masthead .bg-circle-2 {
   width: 50rem;
   top: -25rem;
   right: -25rem;
-
+  z-index: -5;
 }
 
 header.masthead .bg-circle-3 {
@@ -1019,7 +1021,7 @@ header.masthead .bg-circle-3 {
   width: 20rem;
   bottom: -10rem;
   right: 5%;
-
+  z-index: -5;
 }
 
 header.masthead .bg-circle-4 {
@@ -1027,7 +1029,7 @@ header.masthead .bg-circle-4 {
   width: 30rem;
   top: -5rem;
   right: 35%;
-
+z-index: -5;
 }
 
 /* DISPLAY */
