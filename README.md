@@ -15,9 +15,8 @@ The website designed to help you find the home of your dreams.
 ## Installation
 
 1. Clone repository. 
-2. Check in routes/api-routes and comment in block of code if you want the database to be prepopulated with dummy values
-3. npm install
-4. node server.js
+2. npm install
+3. node server.js
 
 Running seeders/seed.js is only if you want to have a prepopulated database.
 
