@@ -25,17 +25,13 @@ Running seeders/seed.js is only if you want to have a prepopulated database.
 
 ### Screeshots
 
-Homepage displaying featured homes
+Homepage
 
+![casa12](https://user-images.githubusercontent.com/89664909/152746693-fdf7398a-ed81-46a3-9339-3cbe428681a1.jpg)
 
+Login Page
 
-Catalog used to browsing listings
-
-
-
-Detailed page on a specific home
-
-
+![casa 22](https://user-images.githubusercontent.com/89664909/152746706-3aa27cf2-050e-4342-b3fe-f9e073a29722.jpg)
 
 ### Built With
 
