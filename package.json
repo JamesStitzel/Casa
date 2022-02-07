@@ -1,50 +1,27 @@
 {
-    "title": "Casa",
-    "name": "casa",
-    "version": "2.0.4",
+    "name": "dangerous-to-go-alone",
+    "version": "1.0.0",
+    "description": "Website dedicated to bringing gamers together to meet new people and enjoy their favorite games together",
+    "main": "server/server.js",
     "scripts": {
-
-        "clean": "node scripts/clean.js",
-        "start": "npm run server.js",
-        "start:debug": "npm run build && node scripts/start-debug.js",
-        "devStart": "npm run nodemon server.js"
+        "start": "node server/server.js",
+        "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+        "install": "cd server && npm i && cd ../client && npm i",
+        "seed": "cd server && npm run seed",
+        "build": "cd client && npm run build"
     },
-    "description": "Website for selling your home, buying a home, or looking to rent.",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive"
-    ],
-    "homepage": "https://github.com/JamesStitzel",
-    "bugs": {
-        "url": "https://github.com/JamesStitzel",
-        "email": "duganstitzel@gmail.com"
-    },
-    "license": "MIT",
-    "author": "James Stitzel",
-    "contributors": [
-        "James Stitzel (https://github.com/JamesStitzel)"
-    ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/JamesStitzel/Casa"
+        "url": "git+https://github.com/AWSMProdigy/dangerous-to-go-alone.git"
     },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AWSMProdigy/dangerous-to-go-alone/issues"
+    },
+    "homepage": "https://github.com/AWSMProdigy/dangerous-to-go-alone#readme",
     "dependencies": {
-        "bootstrap": "5.1.3",
-        "bcrypt": "^3.0.6",
-        "express": "^4.17.1"
-    },
-    "devDependencies": {
-        "autoprefixer": "10.3.7",
-        "browser-sync": "2.27.5",
-        "chokidar": "3.5.2",
-        "concurrently": "6.3.0",
-        "postcss": "8.3.9",
-        "prettier": "2.4.1",
-        "pug": "3.0.2",
-        "sass": "1.43.2",
-        "shelljs": "0.8.4",
-        "upath": "2.0.1"
+        "bootstrap": "^5.1.3",
+        "concurrently": "^6.4.0"
     }
 }

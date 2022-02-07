@@ -1,3 +1,4 @@
+![favicon 2](https://user-images.githubusercontent.com/89664909/152747342-e665a30b-ebb4-4624-adce-5963faeb5365.png)
 # Casa
 
 ## Description
