@@ -1,7 +1,7 @@
 {
-    "title": "One Page Wonder",
-    "name": "startbootstrap-one-page-wonder",
-    "version": "6.0.4",
+    "title": "Casa",
+    "name": "casa",
+    "version": "2.0.4",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
         "build:assets": "node scripts/build-assets.js",
@@ -12,14 +12,12 @@
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "A one page HTML template built with Bootstrap",
+    "description": "Website for selling your home, buying a home, or looking to rent.",
     "keywords": [
         "css",
         "sass",
         "html",
-        "responsive",
-        "theme",
-        "template"
+        "responsive"
     ],
     "homepage": "https://startbootstrap.com/theme/one-page-wonder",
     "bugs": {
@@ -27,13 +25,13 @@
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "James Stitzel",
     "contributors": [
-        "David Miller (https://davidmiller.io/)"
+        "James Stitzel (https://github.com/JamesStitzel)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-one-page-wonder.git"
+        "url": "https://github.com/JamesStitzel/Casa"
     },
     "dependencies": {
         "bootstrap": "5.1.3"
