@@ -23,10 +23,10 @@ const Footer = () => {
               {Auth.loggedIn() ? (
                 <>
                   <Link className="navItem" to="/me">
-                  <h6>Profile</h6>
+                  <h6>User</h6>
                   </Link>
                   <Link className="navItem" to="/Library">
-                  <h6>Games</h6>
+                  <h6>Explore</h6>
                   </Link>
                 </>
               ) : (

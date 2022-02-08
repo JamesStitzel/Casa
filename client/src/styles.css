@@ -191,13 +191,6 @@ form > .btn:hover {
     width: 100%;
 }
 
-
-/* Profile Page CSS */
-#profile-img {
-    width: 400px;
-    height: 400px;
-}
-
 #online-icon {
     margin: 10px 10px;
 }
@@ -211,23 +204,6 @@ form > .btn:hover {
 
 .sidebar-medium {
     flex-direction: column !important;
-}
-
-.profile-sidebar-link {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.profile-sidebar-link:hover {
-    text-decoration: none;
-    color: #ffb824;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-
-.scheduled-game {
-    border-radius: 0.5rem;
-    border: 1px solid;
-    border-color: #ffb824;
 }
 
 .description-input {
@@ -394,12 +370,5 @@ form > .btn:hover {
     .game-sm-spacing {
         margin-top: 30px !important;
         margin-bottom: 30px;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    #profile-img {
-        max-width: 336px;
-        max-height: 336px;
     }
 }
