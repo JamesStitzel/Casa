@@ -1,0 +1,7 @@
+{
+    "root": "client/src/",
+    "clean_urls": true,
+    "routes": {
+      "/**": "index.js"
+    }
+  }
