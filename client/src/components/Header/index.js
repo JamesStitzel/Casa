@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/images/homepage/casa-logo.png';
 import '../../styles.css'
 
